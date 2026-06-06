@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.0] - 2026-06-06
+- Added HIPAA § 164.312(b) audit controls check for activity log review
+- Extended PHI detection patterns to cover structured data fields (SSN, MRN, DOB)
+- Introduced risk severity bucketing: Critical, High, Medium, Low
+- Added unit tests for new PHI pattern matchers
+
 ## [1.2.0] - 2026-06-03
 - Improved audit log handling for access control checks
 - Added validation for HIPAA § 164.312(a)(2)(iv) encryption requirements
