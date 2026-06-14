@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.1] - 2026-06-14
+- Added detection for HIPAA § 164.308(a)(5) security awareness training gaps
+- Extended PHI pattern matching to cover device identifiers and account numbers
+- Improved false-positive filtering in structured data field scans
+- Refactored risk scoring to normalize weights across safeguard categories
+
 ## [1.3.0] - 2026-06-06
 - Added HIPAA § 164.312(b) audit controls check for activity log review
 - Extended PHI detection patterns to cover structured data fields (SSN, MRN, DOB)
