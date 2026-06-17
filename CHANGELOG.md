@@ -4,6 +4,11 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.2] - 2026-06-17
+- Improved handling of nested JSON structures during PHI field scans
+- Added guard against empty input files to avoid scanner crashes
+- Clarified remediation guidance text for HIPAA § 164.308(a)(5) findings
+
 ## [1.3.1] - 2026-06-14
 - Added detection for HIPAA § 164.308(a)(5) security awareness training gaps
 - Extended PHI pattern matching to cover device identifiers and account numbers
