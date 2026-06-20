@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.3] - 2026-06-20
+- Added detection for HIPAA § 164.308(a)(6) security incident response policy gaps
+- Extended PHI redaction logic to handle multi-line free-text fields
+- Improved scanner performance for large structured data files via lazy loading
+- Added unit tests for incident response safeguard checks
+
 ## [1.3.2] - 2026-06-17
 - Improved handling of nested JSON structures during PHI field scans
 - Added guard against empty input files to avoid scanner crashes
