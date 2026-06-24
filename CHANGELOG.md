@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.4] - 2026-06-24
+- Added detection for HIPAA § 164.310(d)(1) device and media controls for workstation security
+- Extended audit log parser to capture failed authentication events as potential risk indicators
+- Improved scanner output formatting for better readability in CI environments
+- Minor performance improvements to PHI pattern matching pipeline
+
 ## [1.3.3] - 2026-06-20
 - Added detection for HIPAA § 164.308(a)(6) security incident response policy gaps
 - Extended PHI redaction logic to handle multi-line free-text fields
