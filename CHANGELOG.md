@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.5] - 2026-06-28
+- Added detection for HIPAA § 164.308(a)(7) contingency plan requirements (data backup, disaster recovery, emergency mode operation)
+- Extended PHI pattern matching to cover geographic subdivisions smaller than state level
+- Improved remediation guidance text with direct links to HHS guidance documents
+- Refactored scanner report output to include HIPAA rule reference citations per finding
+
 ## [1.3.4] - 2026-06-24
 - Added detection for HIPAA § 164.310(d)(1) device and media controls for workstation security
 - Extended audit log parser to capture failed authentication events as potential risk indicators
