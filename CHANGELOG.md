@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.6] - 2026-07-06
+- Added detection for HIPAA § 164.308(a)(8) evaluation requirements for periodic technical and non-technical assessments
+- Extended PHI pattern matching to cover biometric identifiers including fingerprint and retinal scan field references
+- Improved risk report summary to include total finding count grouped by HIPAA safeguard category
+- Added configurable exclusion list for known-safe test data fields to reduce false positives in dev environments
+
 ## [1.3.5] - 2026-06-28
 - Added detection for HIPAA § 164.308(a)(7) contingency plan requirements (data backup, disaster recovery, emergency mode operation)
 - Extended PHI pattern matching to cover geographic subdivisions smaller than state level
