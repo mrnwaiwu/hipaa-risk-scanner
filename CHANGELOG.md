@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.7] - 2026-07-10
+- Added detection for HIPAA § 164.312(e)(1) transmission security gaps in outbound integration configs
+- Extended PHI pattern matching to cover health plan beneficiary numbers and certificate/license numbers
+- Improved risk report to flag findings that overlap multiple safeguard categories with a cross-reference note
+- Added regression tests covering the biometric identifier matchers introduced in 1.3.6
+
 ## [1.3.6] - 2026-07-06
 - Added detection for HIPAA § 164.308(a)(8) evaluation requirements for periodic technical and non-technical assessments
 - Extended PHI pattern matching to cover biometric identifiers including fingerprint and retinal scan field references
