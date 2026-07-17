@@ -4,6 +4,12 @@
 - Planned: extended PHI pattern detection
 - Planned: report export to PDF
 
+## [1.3.8] - 2026-07-17
+- Added detection for HIPAA § 164.312(c)(1) integrity controls to verify PHI has not been improperly altered or destroyed
+- Extended PHI pattern matching to cover full-face photographic images and comparable image field references
+- Improved scan pipeline to emit structured JSON output per finding for easier downstream parsing
+- Added unit tests for integrity control detection logic
+
 ## [1.3.7] - 2026-07-10
 - Added detection for HIPAA § 164.312(e)(1) transmission security gaps in outbound integration configs
 - Extended PHI pattern matching to cover health plan beneficiary numbers and certificate/license numbers
